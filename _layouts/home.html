@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+	{% include head.html %}
+
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>{{ site.intro_line_1 }}<br />
+						{{ site.intro_line_2 }}</h1>
+						<p>{{ site.intro }}</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				{% include header.html %}
+
+				{% include nav.html %}
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							{% if paginator.page == 1 %}
+							{% for post in site.posts limit:1 %}
+							<article class="post featured">
+								<header class="major">
+									<span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+									<h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+									<p>{{ post.intro }}</p>
+								</header>
+								<a href="{{ post.url | relative_url }}" class="image main"><img src="{{ post.image }}" alt="" /></a>
+								<ul class="actions">
+									<li><a href="{{ post.url | relative_url }}" class="button big">Full Story</a></li>
+								</ul>
+							</article>
+							{% endfor %}
+							{% endif %}
+
+						<!-- Posts -->
+							<section class="posts">
+								<!-- This loops through the paginated posts -->
+								{% if paginator.page == 1 %}
+								{% for post in paginator.posts offset:1 %}
+								<article>
+									<header>
+										<span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+										<h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+									</header>
+									<a href="{{ post.url | relative_url }}" class="image fit"><img src="{{ post.image }}" alt="" /></a>
+									<p>{{ post.intro }}</p>
+									<ul class="actions">
+										<li><a href="{{ post.url | relative_url }}" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								{% endfor %}
+								<article>
+									<img src="/images/tree.png" alt="" class="image main" />
+									<p style="text-align: center; color: #cccccc; font-style: italic;">Tuesday night falls <br /> The anticipation for Wednesday rises <br /> The waves of worry cease to crash <br /> Upon the stroke of midnight <br /> "It is Wednesday, my dudes" <br /> Is the people's call <br /> The powerful song of Wednesday rang</p>
+								</article>
+								{% else %}
+								{% for post in paginator.posts %}
+								<article>
+									<header>
+										<span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+										<h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+									</header>
+									<a href="{{ post.url | relative_url }}" class="image fit"><img src="{{ post.image }}" alt="" /></a>
+									<p>{{ post.intro }}</p>
+									<ul class="actions">
+										<li><a href="{{ post.url | relative_url }}" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								{% endfor %}
+								{% endif %}
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<!-- Pagination links -->
+								<div class="pagination">
+									{% if paginator.previous_page %}
+									<a href="{{ paginator.previous_page_path }}" class="previous">Prev</a>
+									{% else %}
+									<span class="previous extra">Prev</span>
+									{% endif %}
+									<span class="extra">&mdash;{{ paginator.page }} of {{ paginator.total_pages }}&mdash;</span>
+									{% if paginator.next_page %}
+									<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+									{% else %}
+									<span class="next extra">Next</span>
+									{% endif %}
+								</div>
+							</footer>
+
+					</div>
+
+				{% include footer.html %}
+
+			</div>
+
+		{% include scripts.html %}
+
+	</body>
+</html>

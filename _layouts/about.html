@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+	{% include head.html %}
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				{% include header.html %}
+
+				{% include nav.html %}
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">About Me</span>
+									<h1>{{ page.title }}</h1>
+									<p>{{ page.intro }}</p>
+								</header>
+								<div class="image main"><img src="{{ page.image }}" alt="" /></div>
+								<h2>{{ page.quote_heading }}</h2>
+								<h3>{{ page.quote_subheading }}</h3>
+								<blockquote>{{ page.quote }}</blockquote>
+
+								{{ content }}
+
+								<img src="/images/tree.png" alt="" style="display: block; margin: auto; width: 20%;" />
+								
+							</section>
+
+					</div>
+
+				{% include footer.html %}
+
+			</div>
+
+		{% include scripts.html %}
+
+	</body>
+</html>

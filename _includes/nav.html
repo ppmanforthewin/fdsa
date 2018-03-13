@@ -1,0 +1,30 @@
+<!-- Nav -->
+  <nav id="nav">
+    <ul class="links">
+      {% if page.url == "/index.html" %}
+      <li class="active"><a href="/">Home</a></li>
+      {% else %}
+      <li><a href="/">Home</a></li>
+      {% endif %}
+
+      {% if page.url == "/about.html" %}
+      <li class="active"><a href="/about">About</a></li>
+      {% else %}
+      <li><a href="/about">About</a></li>
+      {% endif %}
+    </ul>
+    <ul class="icons">
+      {% if site.twitter %}
+      <li><a href="https://twitter.com/{{ site.twitter }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      {% endif %}
+      {% if site.facebook %}
+      <li><a href="https://www.facebook.com/{{ site.facebook }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      {% endif %}
+      {% if site.instagram %}
+      <li><a href="https://www.instagram.com/{{ site.instagram }}" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+      {% endif %}
+      {% if site.github %}
+      <li><a href="https://github.com/{{ site.github }}" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+      {% endif %}
+    </ul>
+  </nav>

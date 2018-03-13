@@ -1,0 +1,68 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Aduantas
+author: Maili Ailsa
+email: maili@farfalle.company
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello, my name is Maili, pronounced like Molly but I doubt you’d remember that.
+  I’ve always wanted to share my story with people by doing what I love: writing.
+  And this now gives me the opportunity to do exactly that.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://a.farfalle.company" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author
+intro_line_1: Welcome to
+intro_line_2: Aduantas
+intro: >-
+  Hello, my name is Maili.
+  I'll be sharing my story with <br /> people by doing what I love: writing.
+
+twitter: mailiailsa
+facebook: profile.php?id=100009178075817&ref=br_rs
+instagram: mailiailsa
+github:
+
+disqus_site_name: aduantas
+
+# Build settings
+markdown: kramdown
+include: [_redirects]
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 4
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

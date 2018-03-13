@@ -1,0 +1,16 @@
+---
+layout: post
+title: Left Behind
+intro: >-
+  Every time I’m there, as I step out of the car parked in the narrow driveway,
+  I search for your names, yours among hundreds. I always know the general area,
+  but it takes a couple glances at other gravestones before I stumble upon
+  yours. 
+image: /images/uploads/volkan-olmez-523.jpg
+comments: true
+---
+Your names and the dates in which you lived and died stare back into my tear filled eyes. I think of every second within those dates I spent with you, and I wish I could just be given one more day. I focus on you and only you, how things would be better if you were here. I always want to let myself break, get on my knees and simply cry, but I never do. I’m waiting for the day I’m truly broken, where I simply cannot stand, where I am so crushed that I can’t bear to pretend for one second that I’m not. I cry because I wish you were here. I cry because I just wish I could hug you again. I cry because I wish all the people I know and love could come to know and love you too, to be able to say in all sincerity whether or not they see you in me. I cry because I wish I could’ve been your daughter for a little longer, and that I could've been a better sister. I cry because I’m done with having so many reasons to cry. I cry because I know the people I love most on this earth are experiencing the same pain. I cry because I don’t want people to pity me, and yet I want them to care. I cry because I want to be more than someone who lost their mom and sister.
+
+But every time I’m there, entirely accustomed to the routine of finding you, crying, standing in silence, and then leaving, I think of the other names and dates surrounding yours. I can’t help but think of everyone else buried there, leaving their loved ones behind. Do the woman’s children, who’s buried side by side to my mother and sister, visit her every Mother’s Day? Has her husband joined her, sleeping side by side as they once did? Are there those buried who have been long forgotten? With no visitors, not even a distant friend? Is there a man buried whose son wakes up every day, wishing his father hadn’t been taken so soon? Are there those who are so poor that they cannot afford to bring flowers to their sister on her birthday? Are there those who cry themselves to sleep, missing their brother, who’s buried across the yard from my mother and sister? Are there those who can't even close their eyes without seeing their friend's face, realizing all over again that he's gone? Is there an old man, sleeping in a rocking chair, empty beer bottle in hand, waiting until the day he joins his wife and child? Are there babies who never had the chance at life or the chance to learn of the things they'd grow to love or despise, who never got the chance to be capable of even hugging their own mother? Those who are so distraught by what they lost, that they lose themselves as well?
+
+These people are out there, right? All mourning in one way or another, and yet all together missing _someone_. Wishing they could hug them, talk to them, or kiss again? Those who try and erase their pain by indulging in substances that slowly pry at their humanity and health? What a life we live in which we long for the day we can see those who are no longer here to live with us.
